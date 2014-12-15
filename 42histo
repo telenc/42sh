@@ -1,0 +1,414 @@
+ 1 ;
+ 2 ;;;
+ 3 ls
+ 4 ls
+ 5 ls
+ 6 ls
+ 7 exit
+ 8 ls
+ 9 lsl
+ 10 sl
+ 11 l
+ 12 sll
+ 13 sl
+ 14 l
+ 15 fz
+ 16 fze
+ 17 f
+ 18 ze
+ 19 f
+ 20 z
+ 21 fez
+ 22 f
+ 23 sl
+ 24 ls
+ 25 *.c
+ 26 exit
+ 27 ls
+ 28 fg
+ 29 exit
+ 30 ls
+ 31 fg
+ 32 ..
+ 33 pwd
+ 34 ls
+ 35 ..
+ 36 ls
+ 37 -l
+ 38 ls
+ 39 ..
+ 40 exit
+ 41 ls
+ 42 -n
+ 43 ls
+ 44 ls*
+ 45 ls
+ 46 ls
+ 47 -n
+ 48 cat
+ 49 ls
+ 50 -n
+ 51 -n
+ 52 prout
+ 53 prout
+ 54 -e
+ 55 norme
+ 56 alias
+ 57 amis"
+ 58 ^pp
+ 59 pp
+ 60 amis'
+ 61 pp
+ 62 amis"
+ 63 pp
+ 64 pp
+ 65 pp
+ 66 '
+ 67 '
+ 68 pp
+ 69 /home/telenc_r/rendu/42sh/42sh-2017-bodart_l
+ 70 amis"
+ 71 pp
+ 72 amissss'
+ 73 pp
+ 74 loulou"
+ 75 pp
+ 76 louloussss'
+ 77 ll
+ 78 ls
+ 79 alias
+ 80 pp="lol"
+ 81 pp
+ 82 alias
+ 83 amis"
+ 84 ll
+ 85 pp
+ 86 alias
+ 87 loulou"
+ 88 pp
+ 89 amis"
+ 90 pp
+ 91 alias
+ 92 ll
+ 93 amuisdede'
+ 94 pp
+ 95 amis'
+ 96 pp
+ 97 louslou"
+ 98 pp
+ 99 loulou"
+ 100 pp
+ 101 loulou'
+ 102 pp
+ 103 exit
+ 104 42
+ 105 42
+ 106 64
+ 107 exit
+ 108 452
+ 109 ls
+ 110 alias
+ 111 42
+ 112 ls
+ 113 lol
+ 114 -e
+ 115 -e
+ 116 -e
+ 117 -e
+ 118 -e
+ 119 ls
+ 120 prout
+ 121 bien
+ 122 ls
+ 123 42sh
+ 124 42
+ 125 "
+ 126 exit
+ 127 source
+ 128 q
+ 129 exit
+ 130 source
+ 131 cat
+ 132 .42shrc
+ 133 source
+ 134 cat
+ 135 exit
+ 136 .42shrc
+ 137 source
+ 138 cat
+ 139 ll
+ 140 q
+ 141 exit
+ 142 lol
+ 143 lol
+ 144 history
+ 145 exit
+ 146 42prout
+ 147 42prout
+ 148 prout
+ 149 prout
+ 150 exit
+ 151 42prout
+ 152 42prout
+ 153 q
+ 154 exit
+ 155 ls
+ 156 prout
+ 157 exit
+ 158 main.c
+ 159 cat
+ 160 historytest
+ 161 -n
+ 162 test
+ 163 exit
+ 164 history | cat -n 
+ 165 history
+ 166 exit
+ 167 history | cat -n 
+ 168 history | cat -n >> prout 
+ 169 cat prout 
+ 170 history | cat -n >> prout | ls | cat << main.c 
+ 171 exit
+ 172 history >> perout 
+ 173 cat perout 
+ 174 cat
+ 175 exit
+ 176 cat perout 
+ 177 exit
+ 178 cat
+ 179 q
+ 180 exit
+ 181 cat
+ 182 exit
+ 183 cat
+ 184 exit
+ 185 cat
+ 186 ./42sh
+ 187 exit 1 
+ 188 cc
+ 189 exit
+ 190 .exit
+ 191 exit
+ 192 lsc""
+ 193 exit
+ 194 ls
+ 195 exit
+ 196 ddedee
+ 197 q
+ 198 exit
+ 199 dede
+ 200 ls
+ 201 exit
+ 202 ls
+ 203 exit
+ 204 ls
+ 205 exit
+ 206 maqexit
+ 207 make
+ 208 exit
+ 209 ls
+ 210 dedede
+ 211 exit
+ 212 make
+ 213 exit
+ 214 exitdefr
+ 215 exit
+ 216 deodekofkrofkrls
+ 217 exit
+ 218 defrf
+ 219 exit
+ 220 ls
+ 221 dedededdeded
+ 222 exit
+ 223 cat | cat | cat 
+ 224 ls | cat 
+ 225 exit
+ 226 cat
+ 227 cat | cat 
+ 228 sl
+ 229 ls
+ 230 exit
+ 231 ./42sh
+ 232 ls
+ 233 cd .. 
+ 234 ls
+ 235 cd .. 
+ 236 ls
+ 237 r
+ 238 cd .. 
+ 239 exit
+ 240 cd .. 
+ 241 amis'
+ 242 history
+ 243 cat | -n lol 
+ 244 alias ll="lolok okok ok ok" 
+ 245 ls
+ 246 env
+ 247 cd .. 
+ 248 env
+ 249 exit
+ 250 unsetenv lol 
+ 251 env
+ 252 unsetenv TERM 
+ 253 ls
+ 254 unsetenv TERM 
+ 255 ls
+ 256 unsetenv TERM 
+ 257 ls
+ 258 unsetenv TERM 
+ 259 ls
+ 260 unsetenv TERM 
+ 261 ls
+ 262 unsetenv TERM 
+ 263 ls
+ 264 unsetenv TERM 
+ 265 ls
+ 266 alias
+ 267 unalias mk 
+ 268 alias
+ 269 unalias e 
+ 270 alias
+ 271 unalias ls 
+ 272 unalais dedeed 
+ 273 unalias okdekdoekodkeodkeokedokdoekodkooed 
+ 274 alias
+ 275 unalias c 
+ 276 unalias ne 
+ 277 alias
+ 278 unalias grep 
+ 279 unalias ll 
+ 280 unalias la 
+ 281 alias
+ 282 unalias l 
+ 283 alias
+ 284 alias ll=ls 
+ 285 ls
+ 286 exit
+ 287 ls
+ 288 exit
+ 289 ls
+ 290 exit
+ 291 ls
+ 292 ;
+ 293 pp
+ 294 ;
+ 295 q
+ 296 exit
+ 297 ;
+ 298 pp
+ 299 exit
+ 300 man42
+ 301 l
+ 302 ll
+ 303 cat << .man42sh 
+ 304 man42
+ 305 exit
+ 306 man42
+ 307 man ls 
+ 308 exit
+ 309 ls
+ 310 alias
+ 311 ne .42shrc 
+ 312 source
+ 313 source .42shrc 
+ 314 prout
+ 315 source
+ 316 ls
+ 317 history
+ 318 source
+ 319 history
+ 320 source
+ 321 ls
+ 322 source
+ 323 history
+ 324 ls
+ 325 history
+ 326 -2
+ 327 history
+ 328 -2
+ 329 -0
+ 330 history
+ 331 -2
+ 332 a
+ 333 b
+ 334 c
+ 335 d
+ 336 e
+ 337 g
+ 338 h
+ 339 history
+ 340 d
+ 341 history
+ 342 h
+ 343 history
+ 344 d
+ 345 history
+ 346 d
+ 347 history
+ 348 h
+ 349 echo "dtsh1.0 > " 
+ 350 echo "/home/telenc_r" 
+ 351 echo "dtsh1.0 > " 
+ 352 echo "dtsh1.0 " 
+ 353 echo "dtsh1.0 > " 
+ 354 echo "dtsh1.0 > " 
+ 355 echo "dtsh1.0 > " 
+ 356 echo "dtsh1.0 > " 
+ 357 echo "dtsh1.0 > " 
+ 358 make
+ 359 echo "dtsh1.0 > " 
+ 360 echo "dtsh1.0 > " 
+ 361 echo "dtsh1.0 > " 
+ 362 echo "dtsh1.0 > " 
+ 363 exit
+ 364 echo "dtsh1.0 > " 
+ 365 q
+ 366 exit
+ 367 echo "dtsh1.0 > " 
+ 368 exit
+ 369 echo "dtsh1.0 > " 
+ 370 exit
+ 371 echo "dtsh1.0 > " 
+ 372 exit
+ 373 echo "dtsh1.0 > " 
+ 374 echo "dtsh1.0 > " 
+ 375 exit
+ 376 echo "dtsh1.0 > " 
+ 377 exit
+ 378 echo "dtsh1.0 > " 
+ 379 exit
+ 380 echo "dtsh1.0 > " 
+ 381 exit
+ 382 echo "dtsh1.0 > " 
+ 383 exit
+ 384 echo "dtsh1.0 > " 
+ 385 exit
+ 386 echo "dtsh1.0 > " 
+ 387 make
+ 388 exit
+ 389 echo "dtsh1.0 > " 
+ 390 echo "dtsh1.0 > " 
+ 391 echo "dtsh1.0 > " 
+ 392 echo "dtsh1.0 > " 
+ 393 echo "dtsh1.0 > " 
+ 394 exit
+ 395 echo "dtsh1.0 > " 
+ 396 exit
+ 397 ls
+ 398 echo "dtsh1.0 > " 
+ 399 ls "/home/telenc_r" 
+ 400 exit
+ 401 echo dtsh1.0 > 
+ 402 echo "dtsh1.0 > " 
+ 403 ls "/home/telenc_r" 
+ 404 echo "dtsh1.0 > " 
+ 405 exit
+ 406 ls
+ 407 setenv test
+ 408 ls
+ 409 test
+ 410 ../a.out
+ 411 ls
+ 412 test
+ 413 ls
+ 414 exit

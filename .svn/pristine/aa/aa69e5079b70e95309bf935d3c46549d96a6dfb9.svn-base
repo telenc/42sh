@@ -1,0 +1,18 @@
+##alias_start
+
+alias mk="make re"
+alias ls="ls --color=auto"
+alias c="clear"
+alias ne="emacs -nw"
+alias grep="grep --color=auto"
+alias ll="ls --color=auto -alF"
+alias la="ls -A"
+alias l="ls -CF"
+alias e="emacs -nw"
+alias prout="echo rpout"
+
+PS1="dtsh1.0 > "
+
+##alias_end
+
+

@@ -1,0 +1,45 @@
+/*
+** mode_passif.c for mode_passif in /home/martre_s/Teck1/42
+** 
+** Made by martre_s
+** Login   <martre_s@steven>
+** 
+** Started on  Tue May 21 14:58:10 2013 martre_s
+** Last update Sun May 26 20:26:20 2013 martre_s
+*/
+
+#include	<sys/types.h>
+#include	<sys/stat.h>
+#include	<stdlib.h>
+#include	<unistd.h>
+#include	"parser.h"
+#include	"lib.h"
+
+int		mode_passif(t_link *link, char **av, char **env)
+{
+  char		**cmd;
+  char		**cmd_two;
+
+  if (av[1] == NULL)
+    return (FALSE);
+  if (av[2] == NULL)
+    {
+      my_printf("Mode_passif : ./42sh -c string\n");
+      return (FALSE);
+    }
+  else if (my_strcmp(av[1], "-c") == 0)
+    {
+      cmd = edit_command(link, my_epur_str(av[2]));
+      cmd_two = my_explode(my_epur_str(av[2]), ' ');
+      if (cmd == NULL)
+	my_printf("%s : command not found\n", av[2]);
+      else if (access(cmd_two[0], X_OK) == 0 && is_exec(cmd_two[0]))
+	my_printf("%s : command not found\n", av[2]);
+      else
+	execve(cmd[0], cmd, env);
+      my_printf("%s : command not found\n", av[2]);
+      return (TRUE);
+    }
+  my_printf("Mode_passif : ./42sh -c string\n");
+  return (FALSE);
+}

@@ -1,0 +1,131 @@
+42SH
+
+COMMANDES :
+
+       cd :		[..]
+                     	  Revenir dans le repertoire parent.
+       	  		[home]
+       			  Revenir dans le repertoire des utilisateurs.
+        	 	[name_directory]
+		          Entrer dans le [name_directory].
+	       	  	[]
+		          Revenir dans le repertoire personnel.
+		        [-]
+			  Revenir dans le repertoire precedent.
+
+       ls :
+			  Lister les fichiers et dossiers du repertoire courant.
+		        [-a]
+			  Afficher tous les fichiers des répertoires y compris les fichiers commençant par '.'.
+			[-C]
+			  Afficher les fichiers en colonnes.
+	 		[-F]
+			  Ajouter un caractère à chaque nom de fichier pour indiquer son type.
+			  	  	  - Les fichiers réguliers exécutable sont suivis d'un `*'.
+			  		  - Les répertoires sont suivis de `/'
+					  - Les liens symboliques d'un `@'
+					  - Les fichiers réguliers non-exe ne sont suivis d'aucun caractère.
+			[-R]
+			  Afficher récursivement le contenu des sous-répertoires.
+
+       pwd :
+		          Afficher le nom du répertoire de travail en cours.
+
+       env :
+		          Exécuter un programme dans un environnement modifié.
+	        	[-i]
+			  Démarrer avec un environnement vide.
+
+       setenv :		[name_var]
+       		          Change ou ajoute une variable d'environnement.
+
+       unsetenv : 	[name_var]
+       		          Effacer la variable name de l'environnement.
+
+       echo :	  	[txt]
+       		          Ecrire chaque [txt] sur la sortie standard avec un saut de ligne après le dernier.
+	  	  	[-n] [txt]
+		  	  Ne pas effectuer le saut de ligne final.
+
+	rm :	  	[name_file]
+		  	  Supprimer le fichier [name_file].
+	   	 	[-r] [directory_file]
+		  	  Effacer récursivement les sous-répertoires de [directory_file].
+	   	  	[-f]
+		          - Ne pas demander de confirmation d'effacement
+			  - Ne pas afficher de message de diagnostic
+			  - Ne pas renvoyer de code d'erreur lorsqu'un fichier n'existe pas.
+
+	history :
+			  Remonter dans les commandes passées.
+			[-c]
+			  Vider l'historique.
+			[-n] [file_name]
+			  Stocker dans [file_name].
+
+
+
+OPERATEURS :
+
+       < :
+		          Lire depuis un fichier ou le clavier.
+
+       > :
+		          Rediriger le resultat dans un fichier.
+
+       << :
+		          Lire depuis le clavier progressivement.
+
+       >> :
+		          Rediriger a la fin d'un fichier.
+
+       ; :
+		          Executer les commandes dans l'ordre, l'une après l'autre.
+
+       | :
+			  Chainer les commandes.
+
+
+ALIAS :
+
+	mk :		make re
+			  Maintenir des groupes de programmes.
+
+	ls :		ls --color=auto
+			   Lister tous les fichiers et dossiers non cachés du repertoire courant.
+
+	c :		clear
+			   Nettoyer l'écran du terminal.
+
+	ne :		emacs -nw
+			   Ouvrir un fichier.
+
+	e :		emacs -nw
+	   		   Ouvrir un fichier.
+
+	grep :		grep --color=auto
+			   Afficher les lignes correspondant à un motif donné.
+
+	ll :		ls --color=auto -alF
+	   		   Lister en colonne tous les fichiers et dossiers du repertoire courant.
+
+	la :		ls -A
+	   		   Lister tous les fichiers du repertoire courant.
+
+	l :		ls -CF
+			   Lister tous les fichiers du repertoire courant.
+
+
+BONUS :
+
+	autocompletion :
+			   Completer le nom de dossier ou de fichier.
+
+	edition de ligne :
+			   Modifier la commande.
+
+	man :
+			   Utiliser le shell 42sh.
+
+	historique :
+			   Stocker les commandes deja utilisees
